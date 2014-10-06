@@ -43,7 +43,7 @@ class Trackerific::Builders::FedEx < Trackerific::Builders::Base::SOAP.new(
   # The version of the FedEx API being used
   # @api private
   def version
-    { service_id: 'trck', major: '8', intermediate: '0', minor: '0' }
+    { service_id: 'trck', major: '9', intermediate: '0', minor: '0' }
   end
 
   # Specifies the details needed to select the shipment being requested to

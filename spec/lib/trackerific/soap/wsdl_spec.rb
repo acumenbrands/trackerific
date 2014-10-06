@@ -22,7 +22,7 @@ describe Trackerific::SOAP::WSDL do
     end
 
     context "with a valid filename" do
-      let(:filename) { 'fedex/TrackService_v8' }
+      let(:filename) { 'fedex/TrackService_v9' }
       it { should =~ /#{Trackerific::SOAP::WSDL::ROOT}\/#{filename}\.wsdl/ }
     end
   end
